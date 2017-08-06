@@ -13,7 +13,7 @@ services:
     ports:
       - "3001:3001"
     volumes:
-      - ./backend:/usr/src/app
+      - ./backend/src:/usr/src/app/src
     environment:
       - DEBUG=backend:*
       - MYSQL_USER=test
